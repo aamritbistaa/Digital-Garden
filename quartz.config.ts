@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "MrXcrypt",
+    pageTitle: "Home",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -11,7 +11,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "misterxcrypt.github.io",
+    baseUrl: "aamritbistaa.github.io",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     generateSocialImages: false,
@@ -47,16 +47,16 @@ const config: QuartzConfig = {
         //   textHighlight: "#7b6e1b",
         // },
         darkMode: {
-          light: "#373534",        // Darker background for better contrast  
-          lightgray: "#494745",    // Subtle contrast for UI elements  
-          gray: "#8d8d8d",         // Medium gray for secondary elements  
-          darkgray: "#d4d4d4",     // Well-balanced gray for subtext and secondary text  
-          dark: "#fcf2d8",         // Warm beige for main text (readable but not harsh)  
-          secondary: "#feb976",    // Muted golden-yellow for buttons and accents  
-          tertiary: "#bb8a3e",     // Darker gold for subheadings (less bright)  
-          highlight: "rgba(131, 165, 152, 0.3)",  // Soft teal-green for background highlights  
-          textHighlight: "#7b6e1b", // Muted teal-blue for text highlights (clear contrast with white text)  
-        }
+          light: "#373534", // Darker background for better contrast
+          lightgray: "#494745", // Subtle contrast for UI elements
+          gray: "#8d8d8d", // Medium gray for secondary elements
+          darkgray: "#d4d4d4", // Well-balanced gray for subtext and secondary text
+          dark: "#fcf2d8", // Warm beige for main text (readable but not harsh)
+          secondary: "#feb976", // Muted golden-yellow for buttons and accents
+          tertiary: "#bb8a3e", // Darker gold for subheadings (less bright)
+          highlight: "rgba(131, 165, 152, 0.3)", // Soft teal-green for background highlights
+          textHighlight: "#7b6e1b", // Muted teal-blue for text highlights (clear contrast with white text)
+        },
       },
     },
   },
